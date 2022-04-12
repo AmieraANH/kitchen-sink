@@ -7,7 +7,7 @@ export interface HeroTable {
 }
 
 const HERO_DATA: HeroTable[] = [
-  { id : "11", name : "Dr Nice" },
+  { id : "11", name : "Dr Ni" },
 { id : "12", name : "Narco" },
 { id : "13", name : "Bombasto" },
 { id : "14", name : "Celeritas" },
