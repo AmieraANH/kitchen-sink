@@ -29,7 +29,7 @@ export class HeroTableComponent implements OnInit {
 
   title = 'HeroesTable';
 
-   displayedColumns: string[] = ['ID', 'name'];
+   displayedColumns: string[] = ['id', 'name'];
    dataSource = HERO_DATA;
   
 
