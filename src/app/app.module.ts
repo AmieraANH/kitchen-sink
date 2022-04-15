@@ -10,9 +10,12 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
-import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component'
 import { HeroTableComponent } from './hero-table/hero-table.component';
-import { MatTableModule } from '@angular/material/table'; 
+import { MatTableModule } from '@angular/material/table';
+import { HeroToolbarComponent } from './hero-toolbar/hero-toolbar.component';
+import {MatIconModule} from '@angular/material/icon';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,7 @@ import { MatTableModule } from '@angular/material/table';
     DashboardComponent,
     HeroSearchComponent,
     HeroTableComponent,
+    HeroToolbarComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +35,8 @@ import { MatTableModule } from '@angular/material/table';
     HttpClientModule,
     HttpClientModule,
     MatTableModule,
-    
+    MatIconModule,
+    MatToolbarModule,
 
 // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
 // and returns simulated server responses.

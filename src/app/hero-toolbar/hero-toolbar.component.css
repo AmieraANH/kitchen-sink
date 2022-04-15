@@ -1,0 +1,18 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .custom-toolbar {
+    color: #333;
+    text-decoration: none;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  font-stretch: expanded;
+    font-size: 150%;
+    background-color: #FDD7E4;
+    margin: .13em;
+    padding: .3em 0;
+    height: 2.2em;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+  }
